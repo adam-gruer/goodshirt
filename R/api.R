@@ -45,5 +45,5 @@ print.goodplacequotes_api <- function(x, ...) {
 #' @examples
 #' random_quote
 random_quote <- function() {
-  goodplacequotes_api("/api")$content
+  goodplacequotes_api("/api/random")$content
 }
