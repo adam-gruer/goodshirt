@@ -12,3 +12,4 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     httr
+RoxygenNote: 6.1.1

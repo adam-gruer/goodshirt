@@ -36,3 +36,14 @@ print.goodplacequotes_api <- function(x, ...) {
   str(x$content)
   invisible(x)
 }
+
+#' Get A Random Quote, Benches
+#'
+#' @return list of two elements : Character and Quote
+#' @export
+#'
+#' @examples
+#' random_quote
+random_quote <- function() {
+  goodplacequotes_api("/api")$content
+}
