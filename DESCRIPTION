@@ -10,3 +10,5 @@ Description: Get some sweet quotes from the Soul Squad
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    httr
