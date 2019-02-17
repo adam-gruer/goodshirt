@@ -33,7 +33,7 @@ goodplacequotes_api <- function(path) {
 
 print.goodplacequotes_api <- function(x, ...) {
   cat("<Good-Place-Quotes ", x$path, ">\n", sep = "")
-  str(x$content)
+  utils::str(x$content)
   invisible(x)
 }
 
