@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 # goodshirt
 
 The goal of goodshirt is to provide an R client to The Good Place Quotes API by
-Klaudia Rozgonyiova.  https://glitch.com/~good-place-quotes
+Klaudia Rozgonyiova.  https://glitch.com/~good-place-quotes https://github.com/EffingKay/the-good-place-quotes
 
 ## Installation
 
@@ -28,9 +28,26 @@ devtools::install_github("adam-gruer/goodshirt")
 
 Get a random quote
 
-```{r example, eval=FALSE}
+```{r example}
 library(goodshirt)
+
 soul_squad()
+
+chidi()
+
+derek()
+
+eleanor()
+
+janet()
+
+jason()
+
+michael()
+
+pillboi()
+
+tahani()
 ```
 
 
