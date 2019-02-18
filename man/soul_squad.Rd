@@ -31,13 +31,15 @@ pillboi()
 tahani()
 }
 \value{
-a list of class "goodshirt"
+a list of class "goodshirt" with 2 elements: character and quote
 }
 \description{
 Get A Random Quote, Benches
 }
 \section{Functions}{
 \itemize{
+\item \code{soul_squad}: A random quote from a random member of the soul_squad
+
 \item \code{chidi}: A random quote  from Chidi
 
 \item \code{derek}: A random quote from Derek
@@ -48,7 +50,7 @@ Get A Random Quote, Benches
 
 \item \code{jason}: A random quote from Jason
 
-\item \code{michael}: A random quote from Micahel
+\item \code{michael}: A random quote from Michael
 
 \item \code{pillboi}: A random quote from Pillboi
 

@@ -35,13 +35,7 @@ print.goodplacequotes_api <- function(x, ...) {
   invisible(x)
 }
 
-print.goodshirt <- function(good_content){
-  cat("\n",
-      good_content$quote,
-      "\n\n",
-      paste("~", good_content$character)
-      )
-}
+
 
 
 
@@ -55,51 +49,69 @@ single_character <- function(character) {
 
 #' Get A Random Quote, Benches
 #'
-#' @return a list of class "goodshirt"
+#' @return a list of class "goodshirt" with 2 elements: character and quote
 #' @export
 #'
+#' @describeIn soul_squad A random quote from a random member of the soul_squad
 #' @examples
 #' soul_squad()
 soul_squad <- function() {
   structure(goodplacequotes_api("/api/random")$content, class = "goodshirt")
 }
 
+#' @export
+#' @describeIn soul_squad
+print.goodshirt <- function(x, ...){
+  cat("\n",
+      x$quote,
+      "\n\n",
+      paste("~", x$character)
+  )
+}
 
+#' @export
 #' @describeIn soul_squad A random quote  from Chidi
 chidi <- function(){
   single_character("chidi")
 }
 
+#' @export
 #' @describeIn soul_squad A random quote from Derek
 derek <- function() {
   single_character("derek")
 }
 
+#' @export
 #' @describeIn soul_squad A random quote from Eleanor
 eleanor <- function() {
   single_character("eleanor")
 }
 
+#' @export
 #' @describeIn soul_squad A random quote from Janet
 janet <- function(){
   single_character("janet")
 }
 
+#' @export
 #' @describeIn soul_squad A random quote from Jason
 jason <- function(){
   single_character("jason")
 }
 
-#' @describeIn soul_squad A random quote from Micahel
+#' @export
+#' @describeIn soul_squad A random quote from Michael
 michael <- function(){
   single_character("michael")
 }
 
+#' @export
 #' @describeIn soul_squad A random quote from Pillboi
 pillboi <- function(){
   single_character("pillboi")
 }
 
+#' @export
 #' @describeIn soul_squad A random quote from Tahani
 tahani <- function() {
   single_character("tahani")
