@@ -19,8 +19,6 @@ goodplacequotes_api <- function(path) {
     )
   }
 
-
-
   structure(
     list(
       content = httr::content(resp),
@@ -37,6 +35,21 @@ print.goodplacequotes_api <- function(x, ...) {
   invisible(x)
 }
 
+good_cat <- function(good_content){
+  cat(good_content$quote,
+      paste("\n~", good_content$character),
+      fill = TRUE
+      )
+}
+
+single_character <- function(character) {
+  api_str <- paste0("/api/character/",character)
+  content <- goodplacequotes_api(api_str)$content
+  content <- sample(content, 1)[[1]]
+  good_cat(content)
+
+}
+
 #' Get A Random Quote, Benches
 #'
 #' @return list of two character vectors : character and quote
@@ -45,5 +58,5 @@ print.goodplacequotes_api <- function(x, ...) {
 #' @examples
 #' soul_squad()
 soul_squad <- function() {
-  goodplacequotes_api("/api/random")$content
+  good_cat(goodplacequotes_api("/api/random")$content)
 }
