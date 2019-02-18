@@ -2,16 +2,59 @@
 % Please edit documentation in R/api.R
 \name{soul_squad}
 \alias{soul_squad}
+\alias{chidi}
+\alias{derek}
+\alias{eleanor}
+\alias{janet}
+\alias{jason}
+\alias{michael}
+\alias{pillboi}
+\alias{tahani}
 \title{Get A Random Quote, Benches}
 \usage{
 soul_squad()
+
+chidi()
+
+derek()
+
+eleanor()
+
+janet()
+
+jason()
+
+michael()
+
+pillboi()
+
+tahani()
 }
 \value{
-list of two character vectors : character and quote
+a list of class "goodshirt"
 }
 \description{
 Get A Random Quote, Benches
 }
+\section{Functions}{
+\itemize{
+\item \code{chidi}: A random quote  from Chidi
+
+\item \code{derek}: A random quote from Derek
+
+\item \code{eleanor}: A random quote from Eleanor
+
+\item \code{janet}: A random quote from Janet
+
+\item \code{jason}: A random quote from Jason
+
+\item \code{michael}: A random quote from Micahel
+
+\item \code{pillboi}: A random quote from Pillboi
+
+\item \code{tahani}: A random quote from Tahani
+}}
+
 \examples{
 soul_squad()
 }
