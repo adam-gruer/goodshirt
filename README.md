@@ -1,6 +1,15 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+<img 
+         id="main-image"
+         src="https://66.media.tumblr.com/cafe3dc5ce1536ef6a106de068396a9a/tumblr_p2lcr5Sj4F1tovxi6o4_250.jpg" 
+         alt="chidi"
+         style="max-width: 100%;
+                width: 15em;
+                border-radius: 100%;"
+    />
+
 # goodshirt
 
 The goal of goodshirt is to provide an R client to The Good Place Quotes
@@ -23,25 +32,25 @@ library(goodshirt)
 
 soul_squad()
 #> 
-#>  Girl, you are a messy bench who loves drama and I am into it! 
+#>  I refuse to discuss my fifth amendment rights until I concur with your attorney. 
 #> 
-#>  ~ Eleanor
+#>  ~ Pillboi
 
 chidi()
 #> 
-#>  I'm sorry, everyone, I just have some worries as well as some concerns that could potentially turn into outright fears. Ah, there they go, they're fears now. 
+#>  There really is an afterlife. I can't wait to have breakfast with Kant, and lunch with Michel Foucault, and then have dinner with Kant again so we can talk about what came up at breakfast! 
 #> 
 #>  ~ Chidi
 
 derek()
 #> 
-#>  Derek! 
+#>  Maximum Derek! 
 #> 
 #>  ~ Derek
 
 eleanor()
 #> 
-#>  Right now I'm the best student. I'm going to be the velociraptor. 
+#>  In the words of a very wise Bed, Bath, and Beyond employee I once knew, "Go ahead and cry all you want, but you're gonna have to pay for that toilet plunger." 
 #> 
 #>  ~ Eleanor
 
@@ -59,19 +68,19 @@ jason()
 
 michael()
 #> 
-#>  Any place or thing in the universe can be up to 104% perfect. That's how you get Beyoncé. 
+#>  Parties are mere distractions from the relentlessness of entropy. We're all just corpses who haven't yet begun to decay. 
 #> 
 #>  ~ Michael
 
 pillboi()
 #> 
-#>  You've got dreams in life? That's lit. 
+#>  I refuse to discuss my fifth amendment rights until I concur with your attorney. 
 #> 
 #>  ~ Pillboi
 
 tahani()
 #> 
-#>  It's #TahaniTime. 
+#>  Well, I suppose some part of me possibly has a sense of casual kinship with you, much as one might be fond of a street cat. 
 #> 
 #>  ~ Tahani
 ```
