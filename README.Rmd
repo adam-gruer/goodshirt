@@ -30,7 +30,7 @@ Get a random quote
 
 ```{r example, eval=FALSE}
 library(goodshirt)
-random_quote()
+soul_squad()
 ```
 
 

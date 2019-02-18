@@ -19,5 +19,5 @@ Get a random quote
 
 ``` r
 library(goodshirt)
-random_quote()
+soul_squad()
 ```

@@ -39,11 +39,11 @@ print.goodplacequotes_api <- function(x, ...) {
 
 #' Get A Random Quote, Benches
 #'
-#' @return list of two elements : Character and Quote
+#' @return list of two character vectors : character and quote
 #' @export
 #'
 #' @examples
-#' random_quote
-random_quote <- function() {
+#' soul_squad()
+soul_squad <- function() {
   goodplacequotes_api("/api/random")$content
 }
