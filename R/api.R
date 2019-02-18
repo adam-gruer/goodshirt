@@ -1,9 +1,11 @@
+
 goodplacequotes_api <- function(path) {
 
 
   url <- httr::modify_url("https://good-place-quotes.herokuapp.com", path = path)
 
-  resp <- httr::GET(url)
+  ua <- httr::user_agent("https://github.com/adam-gruer/goodshirt")
+  resp <- httr::GET(url,ua)
 
   if (httr::http_type(resp) != "application/json") {
     stop("API did not return json", call. = FALSE)
