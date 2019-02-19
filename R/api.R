@@ -62,13 +62,18 @@ soul_squad <- function() {
 }
 
 #' @export
-#' @describeIn soul_squad
 print.goodshirt <- function(x, ...){
   cat("\n",
       x$quote,
       "\n\n",
       paste("~", x$character)
   )
+}
+
+
+#' @export
+as.character.goodshirt <- function(x, ...){
+  paste(c(x$quote, x$character), collapse = "~\n")
 }
 
 #' @export

@@ -32,9 +32,9 @@ library(goodshirt)
 
 soul_squad()
 #> 
-#>  I refuse to discuss my fifth amendment rights until I concur with your attorney. 
+#>   "We're running out of time and I'm your only option?" A lot of guys your age said that to me just as the bar was about to close. But I never settled for them. Because my ex-boyfriend lived nearby, he was obsessed with me and he never slept because he was addicted to Adderall. There is always another option. 
 #> 
-#>  ~ Pillboi
+#>  ~ Eleanor
 
 chidi()
 #> 
@@ -50,25 +50,25 @@ derek()
 
 eleanor()
 #> 
-#>  In the words of a very wise Bed, Bath, and Beyond employee I once knew, "Go ahead and cry all you want, but you're gonna have to pay for that toilet plunger." 
+#>   "We're running out of time and I'm your only option?" A lot of guys your age said that to me just as the bar was about to close. But I never settled for them. Because my ex-boyfriend lived nearby, he was obsessed with me and he never slept because he was addicted to Adderall. There is always another option. 
 #> 
 #>  ~ Eleanor
 
 janet()
 #> 
-#>  Fun fact: Mathematically, it's equally likely to either im- or ex-plode. 
+#>  Fun fact, all deceased members of the Portland Trail Blazers basketball team are also in The Bad Place. 
 #> 
 #>  ~ Janet
 
 jason()
 #> 
-#>  I miss being myself. Myself was the best. 
+#>  Yo, you should listen to me. I came up with hundreds of plans in my life and only one of them got me killed. 
 #> 
 #>  ~ Jason
 
 michael()
 #> 
-#>  Parties are mere distractions from the relentlessness of entropy. We're all just corpses who haven't yet begun to decay. 
+#>  Birth is a curse and existence is a prison. 
 #> 
 #>  ~ Michael
 
@@ -80,7 +80,39 @@ pillboi()
 
 tahani()
 #> 
-#>  Well, I suppose some part of me possibly has a sense of casual kinship with you, much as one might be fond of a street cat. 
+#>  What is that? Is that jewelry? Not that it matters. It's just some jewelry I don't have. Can I have it? 
 #> 
 #>  ~ Tahani
+
+
+library(cowsay)
+library(magrittr)
+
+soul_squad() %>% 
+  as.character() %>% 
+  say(by = "random")
+#> Colors cannot be applied in this environment :( Try using a terminal or RStudio.
+#> 
+#> 
+#>  ----- 
+#> Why do bad things always happen to mediocre people who are lying about their identities?~
+#> Eleanor 
+#>  ------ 
+#>     \   
+#>      \
+#>                 \`*-.
+#>                  )  _`-.
+#>                 .  : `. .
+#>                 : _   '  \
+#>                 ; *` _.   `*-._
+#>                 `-.-'          `-.
+#>                   ;       `       `.
+#>                   :.       .       \
+#>                   .\  .   :   .-'   .
+#>                   '  `+.;  ;  '      :
+#>                   :  '  |    ;       ;-.
+#>                   ; '   : :`-:     _.`* ;
+#>                .*' /  .*' ; .*`- +'  `*'
+#>      [bug]     `*-*   `*-*  `*-*'
+#> 
 ```

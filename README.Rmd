@@ -58,6 +58,15 @@ michael()
 pillboi()
 
 tahani()
+
+
+library(cowsay)
+library(magrittr)
+
+soul_squad() %>% 
+  as.character() %>% 
+  say(by = "random")
+
 ```
 
 
