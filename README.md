@@ -32,55 +32,55 @@ library(goodshirt)
 
 soul_squad()
 #> 
-#>   "We're running out of time and I'm your only option?" A lot of guys your age said that to me just as the bar was about to close. But I never settled for them. Because my ex-boyfriend lived nearby, he was obsessed with me and he never slept because he was addicted to Adderall. There is always another option. 
+#>  Maximum Derek! 
 #> 
-#>  ~ Eleanor
+#>  ~ Derek
 
 chidi()
 #> 
-#>  There really is an afterlife. I can't wait to have breakfast with Kant, and lunch with Michel Foucault, and then have dinner with Kant again so we can talk about what came up at breakfast! 
+#>  This is a mess, morally speaking. This is a putrid, disgusting bowl of ethical soup. 
 #> 
 #>  ~ Chidi
 
 derek()
 #> 
-#>  Maximum Derek! 
+#>  Derek! 
 #> 
 #>  ~ Derek
 
 eleanor()
 #> 
-#>   "We're running out of time and I'm your only option?" A lot of guys your age said that to me just as the bar was about to close. But I never settled for them. Because my ex-boyfriend lived nearby, he was obsessed with me and he never slept because he was addicted to Adderall. There is always another option. 
+#>  Why do bad things always happen to mediocre people who are lying about their identities? 
 #> 
 #>  ~ Eleanor
 
 janet()
 #> 
-#>  Fun fact, all deceased members of the Portland Trail Blazers basketball team are also in The Bad Place. 
+#>  I suppose after 802 reboots I must have gained the ability to lie. That's fun! I want to try to lie again. I love your outfit. 
 #> 
 #>  ~ Janet
 
 jason()
 #> 
-#>  Yo, you should listen to me. I came up with hundreds of plans in my life and only one of them got me killed. 
+#>  I was just about to tell an awesome story about a wing-eating contest that I lost, and a barfing contest that I won, but then a hole opened up in the ground. 
 #> 
 #>  ~ Jason
 
 michael()
 #> 
-#>  Birth is a curse and existence is a prison. 
+#>  I feel like Friends in Season 8. Out of ideas and forcing Joey and Rachel together, even though it made no sense. 
 #> 
 #>  ~ Michael
 
 pillboi()
 #> 
-#>  I refuse to discuss my fifth amendment rights until I concur with your attorney. 
+#>  You've got dreams in life? That's lit. 
 #> 
 #>  ~ Pillboi
 
 tahani()
 #> 
-#>  What is that? Is that jewelry? Not that it matters. It's just some jewelry I don't have. Can I have it? 
+#>  I understand nothing. 
 #> 
 #>  ~ Tahani
 
@@ -93,26 +93,21 @@ soul_squad() %>%
   say(by = "random")
 #> Colors cannot be applied in this environment :( Try using a terminal or RStudio.
 #> 
-#> 
 #>  ----- 
-#> Why do bad things always happen to mediocre people who are lying about their identities?~
-#> Eleanor 
+#> It's a rare occurrence, like a double rainbow. Or like someone on the Internet saying, "You know what? You've convinced me I was wrong."
+#> ~ Michael 
 #>  ------ 
 #>     \   
-#>      \
-#>                 \`*-.
-#>                  )  _`-.
-#>                 .  : `. .
-#>                 : _   '  \
-#>                 ; *` _.   `*-._
-#>                 `-.-'          `-.
-#>                   ;       `       `.
-#>                   :.       .       \
-#>                   .\  .   :   .-'   .
-#>                   '  `+.;  ;  '      :
-#>                   :  '  |    ;       ;-.
-#>                   ; '   : :`-:     _.`* ;
-#>                .*' /  .*' ; .*`- +'  `*'
-#>      [bug]     `*-*   `*-*  `*-*'
-#> 
+#>      \  
+#>       \
+#>        \   _,
+#>       -==<' `
+#>           ) /
+#>          / (_.
+#>         |  ,-,`\
+#>          \\   \ \
+#>           `\,  \ \
+#>            ||\  \`|,
+#>  jgs      _|| `=`-'
+#>          ~~`~`
 ```

@@ -73,7 +73,7 @@ print.goodshirt <- function(x, ...){
 
 #' @export
 as.character.goodshirt <- function(x, ...){
-  paste(c(x$quote, x$character), collapse = "\n~")
+  paste(c(x$quote, x$character), collapse = "\n~ ")
 }
 
 #' @export
