@@ -3,11 +3,11 @@
 
 <img 
          id="main-image"
-         src="https://66.media.tumblr.com/cafe3dc5ce1536ef6a106de068396a9a/tumblr_p2lcr5Sj4F1tovxi6o4_250.jpg" 
-         alt="chidi"
+         src="goodshirt.png" 
+         alt="Thee separate photos of the The good Place characters Chidi, Janet and Tahini, join together in a horizontal strip."
          style="max-width: 100%;
-                width: 15em;
-                border-radius: 100%;"
+                width: 50em;
+                border-radius: 80%;"
     />
 
 # goodshirt
@@ -32,9 +32,9 @@ library(goodshirt)
 
 soul_squad()
 #> 
-#>  Maximum Derek! 
+#>  Don't mind me. I'm just dropping off my afternoon gloves and picking up my early evening gloves. 
 #> 
-#>  ~ Derek
+#>  ~ Tahani
 
 chidi()
 #> 
@@ -44,43 +44,43 @@ chidi()
 
 derek()
 #> 
-#>  Derek! 
+#>  Maximum Derek! 
 #> 
 #>  ~ Derek
 
 eleanor()
 #> 
-#>  Why do bad things always happen to mediocre people who are lying about their identities? 
+#>  Right now I'm the best student. I'm going to be the velociraptor. 
 #> 
 #>  ~ Eleanor
 
 janet()
 #> 
-#>  I suppose after 802 reboots I must have gained the ability to lie. That's fun! I want to try to lie again. I love your outfit. 
+#>  Fun fact: Janet is me. 
 #> 
 #>  ~ Janet
 
 jason()
 #> 
-#>  I was just about to tell an awesome story about a wing-eating contest that I lost, and a barfing contest that I won, but then a hole opened up in the ground. 
+#>  Long story short, it was all a dream. 
 #> 
 #>  ~ Jason
 
 michael()
 #> 
-#>  I feel like Friends in Season 8. Out of ideas and forcing Joey and Rachel together, even though it made no sense. 
+#>  Kissing is gross. You just mash your food holes together. It's not for that. 
 #> 
 #>  ~ Michael
 
 pillboi()
 #> 
-#>  You've got dreams in life? That's lit. 
+#>  I refuse to discuss my fifth amendment rights until I concur with your attorney. 
 #> 
 #>  ~ Pillboi
 
 tahani()
 #> 
-#>  I understand nothing. 
+#>  I'm going to tell you the same thing that I told Mark Zuckerberg right before he ousted Eduardo Saverin. You are smart, you are capable, and the time has come to hit "unfriend." I also told Mark to lose the "the". Just "Facebook." That was me. 
 #> 
 #>  ~ Tahani
 
@@ -93,21 +93,37 @@ soul_squad() %>%
   say(by = "random")
 #> Colors cannot be applied in this environment :( Try using a terminal or RStudio.
 #> 
-#>  ----- 
-#> It's a rare occurrence, like a double rainbow. Or like someone on the Internet saying, "You know what? You've convinced me I was wrong."
-#> ~ Michael 
-#>  ------ 
-#>     \   
-#>      \  
+#>     
+#>  -------------- 
+#> I miss being myself. Myself was the best.
+#> ~ Jason 
+#>  --------------
+#>     \
 #>       \
-#>        \   _,
-#>       -==<' `
-#>           ) /
-#>          / (_.
-#>         |  ,-,`\
-#>          \\   \ \
-#>           `\,  \ \
-#>            ||\  \`|,
-#>  jgs      _|| `=`-'
-#>          ~~`~`
+#>         \
+#>               /""-._
+#>               .       '-,
+#>                :          '',
+#>                 ;      *     '.
+#>                  ' *         () '.
+#>                    \               \
+#>                     \      _.---.._ '.
+#>                     :  .' _.--''-''  \ ,'
+#>         .._           '/.'             . ;
+#>         ; `-.          ,                \'
+#>          ;   `,         ;              ._\
+#>           ;    \     _,-'                ''--._
+#>           :    \_,-'                          '-._
+#>           \ ,-'                       .          '-._
+#>           .'         __.-'';            \...,__       '.
+#>         .'      _,-'        \              \   ''--.,__  '\
+#>         /    _,--' ;         \              ;           \^.}
+#>         ;_,-' )     \  )\      )            ;
+#>              /       \/  \_.,-'             ;
+#>             /                              ;
+#>          ,-'  _,-'''-.    ,-.,            ;      PFA
+#>       ,-' _.-'        \  /    |/'-._...--'
+#>      :--``             )/
+#>   '
+#> 
 ```

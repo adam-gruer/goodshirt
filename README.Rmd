@@ -14,11 +14,11 @@ knitr::opts_chunk$set(
 ```
 <img 
          id="main-image"
-         src="https://66.media.tumblr.com/cafe3dc5ce1536ef6a106de068396a9a/tumblr_p2lcr5Sj4F1tovxi6o4_250.jpg" 
-         alt="chidi"
+         src="goodshirt.png" 
+         alt="Thee separate photos of the The good Place characters Chidi, Janet and Tahini, join together in a horizontal strip."
          style="max-width: 100%;
-                width: 15em;
-                border-radius: 100%;"
+                width: 50em;
+                border-radius: 80%;"
     />
 
 
