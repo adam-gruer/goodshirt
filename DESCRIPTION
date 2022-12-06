@@ -1,6 +1,6 @@
 Package: goodshirt
-Title: R Client For The Good Place Quotes API
-Version: 0.2.2
+Title: Quotes From The TV Show The Good Place
+Version: 0.3.0
 Authors@R: 
     person(given = "Adam",
            family = "Gruer",
