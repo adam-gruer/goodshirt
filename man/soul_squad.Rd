@@ -38,25 +38,25 @@ Get A Random Quote, Benches
 }
 \section{Functions}{
 \itemize{
-\item \code{soul_squad}: A random quote from a random member of the soul_squad
+\item \code{soul_squad()}: A random quote from a random member of the soul_squad
 
-\item \code{chidi}: A random quote  from Chidi
+\item \code{chidi()}: A random quote  from Chidi
 
-\item \code{derek}: A random quote from Derek
+\item \code{derek()}: A random quote from Derek
 
-\item \code{eleanor}: A random quote from Eleanor
+\item \code{eleanor()}: A random quote from Eleanor
 
-\item \code{janet}: A random quote from Janet
+\item \code{janet()}: A random quote from Janet
 
-\item \code{jason}: A random quote from Jason
+\item \code{jason()}: A random quote from Jason
 
-\item \code{michael}: A random quote from Michael
+\item \code{michael()}: A random quote from Michael
 
-\item \code{pillboi}: A random quote from Pillboi
+\item \code{pillboi()}: A random quote from Pillboi
 
-\item \code{tahani}: A random quote from Tahani
+\item \code{tahani()}: A random quote from Tahani
+
 }}
-
 \examples{
 soul_squad()
 }
