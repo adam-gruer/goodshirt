@@ -41,43 +41,43 @@ library(goodshirt)
 
 soul_squad()
 #> 
-#>  (explaining his tattoo) It’s Chinese for "Japan." 
+#>  Pobody's nerfect. 
 #> 
-#>  ~ Michael
+#>  ~ Eleanor
 
 chidi()
 #> 
-#>  You know, I thought I'd have a stomachache right now, but weirdly... I do. 
+#>  I have what doctors call "directional insanity". I once got lost on an escalator. 
 #> 
 #>  ~ Chidi
 
 derek()
 #> 
-#>  Derek! 
+#>  Maximum Derek! 
 #> 
 #>  ~ Derek
 
 eleanor()
 #> 
-#>  Pobody's nerfect. 
+#>  Okay, bud, whatever's going on right now, just shove your feelings way down deep, plaster on a fake smile, and pretend like you're having fun. Okay? Just like I used to do when someone started talking about their kids. 
 #> 
 #>  ~ Eleanor
 
 janet()
 #> 
-#>  Fun fact: Janet is me. 
+#>  It turns out the best Janet was the Janet that was inside Janet all along. 
 #> 
 #>  ~ Janet
 
 jason()
 #> 
-#>  I'm telling you, Molotov cocktails work. Anytime I had a problem and I threw a Molotov cocktail, boom! Right away, I had a different problem. 
+#>  She's my everything. She makes the bass drop in my heart. 
 #> 
 #>  ~ Jason
 
 michael()
 #> 
-#>  Parties are mere distractions from the relentlessness of entropy. We're all just corpses who haven't yet begun to decay. 
+#>  You will spend eternity with murderers, and arsonists, and people who take off their shoes and socks on commercial airlines. 
 #> 
 #>  ~ Michael
 
@@ -89,7 +89,7 @@ pillboi()
 
 tahani()
 #> 
-#>  It's just that I'm not used to dressing like a plumberess. Is that what you call a female plumber or is a toilet sweep or, or clog wench? 
+#>  It run for 16 years on the BBC. It did nearly 30 episodes. 
 #> 
 #>  ~ Tahani
 
@@ -104,23 +104,23 @@ soul_squad() %>%
   say(by = "random")
 #> 
 #>  ------------- 
-#> I can't believe we get to ride a real-life Optimus Prime. I call right nipple. That's shotgun on Optimus Prime.
-#> ~ Jason 
+#> I also dabbled in some other professions. I was a model, a museum curator, an "It Girl," and... oh, I was Baz Luhrmann's muse for a while. That was quite fun.
+#> ~ Tahani 
 #>  -------------- 
 #>               \   
 #>                \  
 #>                 \
-#> 
-#>                   .="=.
-#>                 _/.-.-.\_     _
-#>                ( ( o o ) )    ))
-#>                 |/  "  \|    //
-#>                  \'---'/    //
-#>            jgs   /`"""`\\  ((
-#>                 / /_,_\ \\  \\
-#>                 \_\_'__/  \  ))
-#>                 /`  /`~\   |//
-#>                /   /    \  /
-#>           ,--`,--'\/\    /
-#>           '-- "--'  '--'
+#>                .--.
+#>               /} p \             /}
+#>              `~)-) /           /` }
+#>               ( / /          /`}.' }
+#>                / / .-'""-.  / ' }-'}
+#>               / (.'       \/ '.'}_.}
+#>              |            `}   .}._}
+#>              |     .-=-';   } ' }_.}
+#>              \    `.-=-;'  } '.}.-}
+#>               '.   -=-'    ;,}._.}
+#>                 `-,_  __.'` '-._}
+#>               jgs   `|||
+#>                    .=='=,
 ```
