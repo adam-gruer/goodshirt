@@ -6,7 +6,7 @@
 \title{Good place quotes}
 \format{
 ## `quotes`
-A data frame with 77 rows amd 2 columns:
+A data frame with 77 rows and 2 columns:
 \describe{
 \item{character}{Name of character}
 \item{quotes}{Pearl of wisdom uttered by the character}}
