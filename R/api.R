@@ -1,50 +1,15 @@
 
-goodplacequotes_api <- function(path) {
 
-
-  url <- httr::modify_url("https://good-place-quotes.herokuapp.com", path = path)
-
-  ua <- httr::user_agent("https://github.com/adam-gruer/goodshirt")
-  resp <- httr::GET(url,ua)
-
-  if (httr::http_type(resp) != "application/json") {
-    stop("API did not return json", call. = FALSE)
-  }
-
-  if (httr::http_error(resp)) {
-    stop(
-      sprintf(
-        "Good PLace Quotes API request failed [%s]\n",
-        httr::status_code(resp)
-      ),
-      call. = FALSE
-    )
-  }
-
-  structure(
-    list(
-      content = httr::content(resp),
-      path = path,
-      response = resp
-    ),
-    class = "goodplacequotes_api"
-  )
+get_random_quote <- function(quotes){
+  i <- sample(nrow(quotes), 1)
+  quotes[i, ]
 }
-
-print.goodplacequotes_api <- function(x, ...) {
-  cat("<Good-Place-Quotes ", x$path, ">\n", sep = "")
-  utils::str(x$content)
-  invisible(x)
-}
-
-
-
-
 
 single_character <- function(character) {
-  api_str <- paste0("/api/character/",character)
-  content <- goodplacequotes_api(api_str)$content
-  content <- sample(content, 1)[[1]]
+
+  character_quotes <- quotes[tolower(quotes$character) == character, ]
+
+  content <- get_random_quote(character_quotes)
   structure(content, class="goodshirt")
 
 }
@@ -58,7 +23,9 @@ single_character <- function(character) {
 #' @examples
 #' soul_squad()
 soul_squad <- function() {
-  structure(goodplacequotes_api("/api/random")$content, class = "goodshirt")
+
+  content <- get_random_quote(quotes)
+  structure(content, class = "goodshirt")
 }
 
 #' @export
