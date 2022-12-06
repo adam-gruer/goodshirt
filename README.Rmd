@@ -21,11 +21,18 @@ knitr::opts_chunk$set(
                 border-radius: 80%;"
     />
 
+# Note please upgrade to version 3.0.0
+
+The Good Place quotes API is no longer available.
+v 3.0.0 ships the quote data with the package and remover calls to the defunct api.
 
 # goodshirt
 
-The goal of goodshirt is to provide an R client to The Good Place Quotes API by
+The goal of goodshirt is to provide The Good Place Quotes in your R session.
+Previously an R client to The Good Place Quotes API by
 Klaudia Rozgonyiova.  https://glitch.com/~good-place-quotes https://github.com/EffingKay/the-good-place-quotes
+
+Now in version 3.0.0 API calls are removed and quotes data ships with the package
 
 ## Installation
 

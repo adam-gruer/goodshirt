@@ -10,11 +10,20 @@
                 border-radius: 80%;"
     />
 
+# Note please upgrade to version 3.0.0
+
+The Good Place quotes API is no longer available. v 3.0.0 ships the
+quote data with the package and remover calls to the defunct api.
+
 # goodshirt
 
-The goal of goodshirt is to provide an R client to The Good Place Quotes
-API by Klaudia Rozgonyiova. <https://glitch.com/~good-place-quotes>
+The goal of goodshirt is to provide The Good Place Quotes in your R
+session. Previously an R client to The Good Place Quotes API by Klaudia
+Rozgonyiova. <https://glitch.com/~good-place-quotes>
 <https://github.com/EffingKay/the-good-place-quotes>
+
+Now in version 3.0.0 API calls are removed and quotes data ships with
+the package
 
 ## Installation
 
@@ -32,25 +41,25 @@ library(goodshirt)
 
 soul_squad()
 #> 
-#>  Don't mind me. I'm just dropping off my afternoon gloves and picking up my early evening gloves. 
+#>  (explaining his tattoo) It’s Chinese for "Japan." 
 #> 
-#>  ~ Tahani
+#>  ~ Michael
 
 chidi()
 #> 
-#>  This is a mess, morally speaking. This is a putrid, disgusting bowl of ethical soup. 
+#>  You know, I thought I'd have a stomachache right now, but weirdly... I do. 
 #> 
 #>  ~ Chidi
 
 derek()
 #> 
-#>  Maximum Derek! 
+#>  Derek! 
 #> 
 #>  ~ Derek
 
 eleanor()
 #> 
-#>  Right now I'm the best student. I'm going to be the velociraptor. 
+#>  Pobody's nerfect. 
 #> 
 #>  ~ Eleanor
 
@@ -62,13 +71,13 @@ janet()
 
 jason()
 #> 
-#>  Long story short, it was all a dream. 
+#>  I'm telling you, Molotov cocktails work. Anytime I had a problem and I threw a Molotov cocktail, boom! Right away, I had a different problem. 
 #> 
 #>  ~ Jason
 
 michael()
 #> 
-#>  Kissing is gross. You just mash your food holes together. It's not for that. 
+#>  Parties are mere distractions from the relentlessness of entropy. We're all just corpses who haven't yet begun to decay. 
 #> 
 #>  ~ Michael
 
@@ -80,50 +89,38 @@ pillboi()
 
 tahani()
 #> 
-#>  I'm going to tell you the same thing that I told Mark Zuckerberg right before he ousted Eduardo Saverin. You are smart, you are capable, and the time has come to hit "unfriend." I also told Mark to lose the "the". Just "Facebook." That was me. 
+#>  It's just that I'm not used to dressing like a plumberess. Is that what you call a female plumber or is a toilet sweep or, or clog wench? 
 #> 
 #>  ~ Tahani
 
 
 library(cowsay)
+#> Warning: package 'cowsay' was built under R version 4.2.2
 library(magrittr)
+#> Warning: package 'magrittr' was built under R version 4.2.2
 
 soul_squad() %>% 
   as.character() %>% 
   say(by = "random")
-#> Colors cannot be applied in this environment :( Try using a terminal or RStudio.
 #> 
-#>     
-#>  -------------- 
-#> I miss being myself. Myself was the best.
+#>  ------------- 
+#> I can't believe we get to ride a real-life Optimus Prime. I call right nipple. That's shotgun on Optimus Prime.
 #> ~ Jason 
-#>  --------------
-#>     \
-#>       \
-#>         \
-#>               /""-._
-#>               .       '-,
-#>                :          '',
-#>                 ;      *     '.
-#>                  ' *         () '.
-#>                    \               \
-#>                     \      _.---.._ '.
-#>                     :  .' _.--''-''  \ ,'
-#>         .._           '/.'             . ;
-#>         ; `-.          ,                \'
-#>          ;   `,         ;              ._\
-#>           ;    \     _,-'                ''--._
-#>           :    \_,-'                          '-._
-#>           \ ,-'                       .          '-._
-#>           .'         __.-'';            \...,__       '.
-#>         .'      _,-'        \              \   ''--.,__  '\
-#>         /    _,--' ;         \              ;           \^.}
-#>         ;_,-' )     \  )\      )            ;
-#>              /       \/  \_.,-'             ;
-#>             /                              ;
-#>          ,-'  _,-'''-.    ,-.,            ;      PFA
-#>       ,-' _.-'        \  /    |/'-._...--'
-#>      :--``             )/
-#>   '
+#>  -------------- 
+#>               \   
+#>                \  
+#>                 \
 #> 
+#>                   .="=.
+#>                 _/.-.-.\_     _
+#>                ( ( o o ) )    ))
+#>                 |/  "  \|    //
+#>                  \'---'/    //
+#>            jgs   /`"""`\\  ((
+#>                 / /_,_\ \\  \\
+#>                 \_\_'__/  \  ))
+#>                 /`  /`~\   |//
+#>                /   /    \  /
+#>           ,--`,--'\/\    /
+#>           '-- "--'  '--'
 ```
